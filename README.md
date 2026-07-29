@@ -1,16 +1,156 @@
-# React + Vite
+# AI Tools Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive web application built with **React** and **Bootstrap** that helps users discover, search, and explore popular AI tools across different categories. The application provides a clean, intuitive interface for browsing AI tools with detailed descriptions and direct access links.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://your-vercel-link.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Preview
 
-## Expanding the Oxlint configuration
+Add screenshots of your application here.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+![Home Page](./screenshots/home.png)
+
+---
+
+## Features
+
+- Search AI tools by name
+- Browse tools by category
+- Fully responsive design
+- Fast React-based interface
+- Modern and clean UI
+- Tool cards with images and descriptions
+- Direct links to official AI tool websites
+- Organized categories for easy navigation
+- Smooth and intuitive user experience
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React.js
+- Bootstrap 5
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+### Development Tools
+
+- Vite
+- Git
+- GitHub
+- Visual Studio Code
+
+### Deployment
+
+- Vercel
+
+---
+
+## Project Structure
+
+```text
+AI-Tools_Explorer/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/siddhi591/AI-Tools_Explorer.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd AI-Tools_Explorer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Learning Outcomes
+
+This project helped strengthen my understanding of:
+
+- React components
+- Props
+- State management
+- Conditional rendering
+- Responsive web design
+- Bootstrap layout system
+- Component reusability
+- Project organization
+- Git and GitHub workflow
+- Deploying React applications
+
+---
+
+## Future Improvements
+
+- Dark mode
+- AI tool comparison feature
+- Bookmark favorite tools
+- User authentication
+- Filter by pricing
+- Sort by popularity
+- Search suggestions
+- Pagination
+- API integration for live AI tool updates
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## Author
+
+**Siddhi Pansare**
+
+GitHub: https://github.com/siddhi591
+
+LinkedIn: www.linkedin.com/in/siddhipansare30
